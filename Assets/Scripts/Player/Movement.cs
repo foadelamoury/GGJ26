@@ -51,7 +51,7 @@ public class Movement : MonoBehaviour, IMovable, ITurnable
 
         }
 
-        if(currentSpeed <=0)
+        if(currentSpeed ==0)
         {
             StopVehicle();
 
@@ -108,7 +108,7 @@ public class Movement : MonoBehaviour, IMovable, ITurnable
     {
         currentSpeed = 0f;
         rb.linearVelocity = Vector2.zero;
-        rb.rotation = 0f;
+        rb.angularVelocity = 0;
         //transform.rotation = Quaternion.identity;
     }
     #endregion

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 713dcc9681c6605419f92114ee7f1578
+guid: 300762d86bc0dd34a85e9787da799674
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5329618758379188143
-    second: taxi (2)_0
+      213: -6495276790101768568
+    second: compact_green_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: taxi (2)_0
+      name: compact_green_0
       rect:
         serializedVersion: 2
-        x: 350
-        y: 27
-        width: 326
-        height: 648
+        x: 0
+        y: 0
+        width: 26
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 150dc8e0af36906b0800000000000000
-      internalID: -5329618758379188143
+      spriteID: 88605204c242cd5a0800000000000000
+      internalID: -6495276790101768568
       vertices: []
       indices: 
       edges: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      taxi (2)_0: -5329618758379188143
+      compact_green_0: -6495276790101768568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

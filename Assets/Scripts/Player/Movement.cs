@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour, IMovable, ITurnable
     float currentSpeed = 0f;
     Rigidbody2D rb;
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -107,9 +107,11 @@ public class Movement : MonoBehaviour, IMovable, ITurnable
     public void StopVehicle()
     {
         currentSpeed = 0f;
-        rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0;
-        //transform.rotation = Quaternion.identity;
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+        }
     }
     #endregion
 

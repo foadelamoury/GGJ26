@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: 3468743390123239909}
   - component: {fileID: 7228187951766388639}
   - component: {fileID: 7592535611523374758}
+  - component: {fileID: 6377076111582818495}
+  - component: {fileID: 902554630589576846}
   m_Layer: 6
   m_Name: taxi
   m_TagString: Player
@@ -175,7 +177,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 6.826667, y: 4.786667}
+    oldSize: {x: 4.096, y: 2.872}
     newSize: {x: 17.28, y: 24.644457}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -183,50 +185,50 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.5133333, y: -2.2133334}
-      - {x: 0.66, y: -2.16}
-      - {x: 0.8466667, y: -2.14}
-      - {x: 0.94, y: -2.06}
-      - {x: 0.9666667, y: -2.0066667}
-      - {x: 0.98, y: -1.9333334}
-      - {x: 1, y: -1.5400001}
-      - {x: 0.99333334, y: -1.0333333}
-      - {x: 0.9866667, y: -0.16666667}
-      - {x: 1.08, y: 0.46}
-      - {x: 1.0933334, y: 0.48000002}
-      - {x: 1.0933334, y: 0.54}
-      - {x: 1, y: 0.61333334}
-      - {x: 1.0133333, y: 1.14}
-      - {x: 1.02, y: 1.6933334}
-      - {x: 0.9533334, y: 1.9266667}
-      - {x: 0.91333336, y: 1.98}
-      - {x: 0.8, y: 2.0266666}
-      - {x: 0.5266667, y: 2.0933335}
-      - {x: -0.15333334, y: 2.0933335}
-      - {x: -0.32666668, y: 2.0533333}
-      - {x: -0.38, y: 2.0933335}
-      - {x: -0.48666668, y: 2.0933335}
-      - {x: -0.52000004, y: 2.0866668}
-      - {x: -0.5466667, y: 2.04}
-      - {x: -0.8066667, y: 2.0266666}
-      - {x: -0.93333334, y: 1.9466667}
-      - {x: -1.0133333, y: 1.7466667}
-      - {x: -0.99333334, y: 1.14}
-      - {x: -0.97333336, y: 0.61333334}
-      - {x: -1.0066667, y: 0.6}
-      - {x: -1.0733334, y: 0.5466667}
-      - {x: -1.08, y: 0.50666666}
-      - {x: -1.08, y: 0.48000002}
-      - {x: -1.0600001, y: 0.46}
-      - {x: -0.97333336, y: 0.46}
-      - {x: -0.97333336, y: -1.5400001}
-      - {x: -0.9666667, y: -2.0133333}
-      - {x: -0.87333333, y: -2.1333334}
-      - {x: -0.5466667, y: -2.2133334}
-      - {x: -0.45333335, y: -2.2133334}
-      - {x: -0.3866667, y: -2.1866667}
-      - {x: 0.39333335, y: -2.18}
-      - {x: 0.44, y: -2.2133334}
+    - - {x: 0.30800003, y: -1.3280001}
+      - {x: 0.39600003, y: -1.296}
+      - {x: 0.508, y: -1.284}
+      - {x: 0.564, y: -1.2360001}
+      - {x: 0.58000004, y: -1.2040001}
+      - {x: 0.588, y: -1.1600001}
+      - {x: 0.6, y: -0.924}
+      - {x: 0.596, y: -0.62}
+      - {x: 0.592, y: -0.1}
+      - {x: 0.648, y: 0.27600002}
+      - {x: 0.656, y: 0.28800002}
+      - {x: 0.656, y: 0.324}
+      - {x: 0.6, y: 0.36800003}
+      - {x: 0.60800004, y: 0.684}
+      - {x: 0.61200005, y: 1.016}
+      - {x: 0.572, y: 1.156}
+      - {x: 0.54800004, y: 1.1880001}
+      - {x: 0.48000002, y: 1.2160001}
+      - {x: 0.316, y: 1.256}
+      - {x: -0.09200001, y: 1.256}
+      - {x: -0.19600001, y: 1.2320001}
+      - {x: -0.22800002, y: 1.256}
+      - {x: -0.29200003, y: 1.256}
+      - {x: -0.312, y: 1.2520001}
+      - {x: -0.328, y: 1.2240001}
+      - {x: -0.48400003, y: 1.2160001}
+      - {x: -0.56, y: 1.1680001}
+      - {x: -0.60800004, y: 1.0480001}
+      - {x: -0.596, y: 0.684}
+      - {x: -0.58400005, y: 0.36800003}
+      - {x: -0.60400003, y: 0.36}
+      - {x: -0.64400005, y: 0.328}
+      - {x: -0.648, y: 0.30400002}
+      - {x: -0.648, y: 0.28800002}
+      - {x: -0.63600004, y: 0.27600002}
+      - {x: -0.58400005, y: 0.27600002}
+      - {x: -0.58400005, y: -0.924}
+      - {x: -0.58000004, y: -1.2080001}
+      - {x: -0.52400005, y: -1.2800001}
+      - {x: -0.328, y: -1.3280001}
+      - {x: -0.272, y: -1.3280001}
+      - {x: -0.23200001, y: -1.312}
+      - {x: 0.23600002, y: -1.3080001}
+      - {x: 0.264, y: -1.3280001}
   m_UseDelaunayMesh: 1
 --- !u!114 &1601166782018244380
 MonoBehaviour:
@@ -242,7 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   maxSpeed: 7
   acceleration: 5
-  turnSpeed: 150
+  turnSpeed: 300
 --- !u!114 &3468743390123239909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af2444f4958a9034bb7756b7a8fe360e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TheCollider
+  maxHealth: 100
+  currentHealth: 0
 --- !u!114 &7228187951766388639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -273,6 +277,7 @@ MonoBehaviour:
   movement: {fileID: 1601166782018244380}
   playerInput: {fileID: 7901450152278098956}
   theCollider: {fileID: 3468743390123239909}
+  taxiController: {fileID: 6377076111582818495}
 --- !u!114 &7592535611523374758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,3 +308,131 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &6377076111582818495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127870706723567739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4efd1e543ac0e0c4296776b1120108eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TaxiController
+  guidingLine: {fileID: 902554630589576846}
+  currentMoney: 0
+  isCarryingPassenger: 0
+  OnMoneyChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!120 &902554630589576846
+LineRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127870706723567739}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.13933563
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 1

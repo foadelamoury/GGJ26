@@ -12,10 +12,10 @@ public class Vehicle : MonoBehaviour
     [SerializeField] Movement movement;
     [SerializeField] InputHandler playerInput;
     [SerializeField] TheCollider theCollider;
+    [SerializeField] TaxiController taxiController;
 
-
-
-
+    public TaxiController Taxi => taxiController;
+    public TheCollider Collider => theCollider;
 
     void Awake()
     {
@@ -28,6 +28,7 @@ public class Vehicle : MonoBehaviour
         if (!movement) movement = GetComponent<Movement>();
         if (!playerInput) playerInput = GetComponent<InputHandler>();
         if (!theCollider) theCollider = GetComponent<TheCollider>();
+        if (!taxiController) taxiController = GetComponent<TaxiController>();
 
 
     }
@@ -40,12 +41,14 @@ public class Vehicle : MonoBehaviour
     }
 
 
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-
-
-
-    //}
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Simple impact logic - if speed is high enough, take damage
+        if (movement.CurrentSpeed > 2.0f && collision.gameObject.layer != LayerMask.NameToLayer("Pedestrian"))
+        {
+             theCollider.TakeDamage(5f); // Arbitrary damage for now
+        }
+    }
 
 
 

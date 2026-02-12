@@ -17,6 +17,9 @@ public class Movement : MonoBehaviour, IMovable, ITurnable
     float currentSpeed = 0f;
     Rigidbody2D rb;
 
+    public float CurrentSpeed => currentSpeed;
+    public bool IsStopped => Mathf.Abs(currentSpeed) < 0.1f;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

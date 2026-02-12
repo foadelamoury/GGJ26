@@ -17,7 +17,7 @@ public class InputHandler : MonoBehaviour
     public void OnMove(InputValue inputValue)
     {
         MovementInput = inputValue.Get<Vector2>();
-        Debug.Log("OnMove: " + MovementInput);
+        //Debug.Log("OnMove: " + MovementInput);
     }
 
     public void OnBrake(InputValue inputValue)
